@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "firstName": "Vincent",
+      "lastName": "Byrne",
+      "email": "Vincentpbyrne@hotmail.com",
+      "password": "123",
+      "_id": "c24f8c72-9c8c-4157-9a86-2fa39016ce63"
+    }
+  ],
+  "locations": [
+    {
+      "userid": "c24f8c72-9c8c-4157-9a86-2fa39016ce63",
+      "title": "Gravity Climbing Centre",
+      "description": "Indoor climbing and bouldering centre with routes and challenges for all ages and abilities.",
+      "category": "Indoor Climbing",
+      "latitude": "53.33660221723444",
+      "longitude": "-6.323664931811058",
+      "_id": "edb82677-2aa4-4928-a327-a80e919fa4e0"
+    }
+  ],
+  "images": [
+    {
+      "title": "Gravity Climbing Centre (2025) - All You Need to Know BEFORE You Go",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/2f/33/a1/gravity-climbing-center.jpg?w=1200&h=-1&s=1",
+      "description": "Competition Begins",
+      "_id": "8233ab13-84cd-498c-815b-31d879256cad",
+      "locationid": "edb82677-2aa4-4928-a327-a80e919fa4e0"
+    },
+    {
+      "title": "1",
+      "imageUrl": "https://awesomewalls.ie/wp-content/uploads/2024/01/0052-RP_00549-684x1024.jpg",
+      "description": "1",
+      "_id": "704a9d75-57d8-4a39-b98c-87c3cca88f27",
+      "locationid": "edb82677-2aa4-4928-a327-a80e919fa4e0"
+    },
+    {
+      "title": "1",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROd1BcSC3dLiHFPuToD4XtgaZBUSsmKyOPGrpcd35zuXKmtY0qmojpJUecU6w2kgMkuQ8&usqp=CAU",
+      "description": "1",
+      "_id": "c6dc9460-a916-43fc-8096-92a1bf2f5025",
+      "locationid": "edb82677-2aa4-4928-a327-a80e919fa4e0"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "climbfind",
+  "version": "0.3.0",
+  "description": "An application for finding climbing locations",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint . --ext .js",
+    "test": "mocha --ui tdd test/**/*.js -exit"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/cookie": "^12.0.1",
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/vision": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "handlebars": "^4.7.8",
+    "hapi": "^18.1.0",
+    "joi": "^17.13.3",
+    "lowdb": "^7.0.1",
+    "mongod": "^2.0.0",
+    "mongoose": "^8.12.1",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "axios": "^1.8.3",
+    "chai": "^5.2.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "mocha": "^11.1.0",
+    "prettier": "^3.4.2"
+  }
+}

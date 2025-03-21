@@ -1,0 +1,16 @@
+<form class="box" action="/location/{{location._id}}/addimage" method="POST">
+  <label>Add an Image:</label>
+  <div class="field">
+    <label class="label">Title</label>
+    <input class="input" type="text" placeholder="Image Title" name="title">
+  </div>
+  <div class="field">
+    <label class="label">Image URL</label>
+    <input class="input" type="text" placeholder="URL to image" name="imageUrl">
+  </div>
+  <div class="field">
+    <label class="label">Description</label>
+    <textarea class="textarea" placeholder="Image description" name="description"></textarea>
+  </div>
+  <button class="button is-primary">Add Image</button>
+</form>

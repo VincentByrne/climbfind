@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "afc4e2e5-3549-4a88-abb7-bd8c92e21abb"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "1c5e0b5d-9ec6-472a-98c9-82b5fbdd922b"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "eed9c1ff-ccfd-4a3d-95f2-b88a7136aa63"
+    }
+  ],
+  "locations": [
+    {
+      "title": "Awesome Walls",
+      "description": "Awesome Walls Dublin is a premier indoor climbing facility that stands as a beacon for climbing enthusiasts in Ireland.",
+      "category": "Indoor Climbing",
+      "latitude": 53.40181469611018,
+      "longitude": -6.316292754371287,
+      "userid": "67dd0426c5a3a36088a7844e",
+      "_id": "c1e1fda8-6a90-4c7d-a0c8-b7501af1a625"
+    }
+  ],
+  "images": [
+    {
+      "title": "Fair way to go",
+      "imageUrl": "https://hikeandclimb.ie/wp-content/uploads/2016/05/11051838_10207043027103380_2780624506810136303_o.jpg",
+      "description": "Plenty of equipment needed for this climber.",
+      "_id": "f4f968d2-8f2e-4bb6-b76e-74dbea54e299",
+      "locationid": "c1e1fda8-6a90-4c7d-a0c8-b7501af1a625"
+    },
+    {
+      "title": "Bouldering against gravity",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/2f/33/a1/gravity-climbing-center.jpg?w=1000&h=600&s=1",
+      "description": "Full house in gravity gym",
+      "_id": "37f0d930-926e-4c26-9f43-63d2d1867aa6",
+      "locationid": "c1e1fda8-6a90-4c7d-a0c8-b7501af1a625"
+    },
+    {
+      "title": "Glendalough routes",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/-c6aiSpkdqZul38tuuHEHl3aVbcTzDwwT8Tcc1QOMndGyLoEyCmO2iGtb6CFhYD8f47e_HCEYyEreg6pGiQWXxF2mPdoYxhCO7Ihs2D8TigbJ4hk6eASWSl3wFwhUjOy0kQEKuq5TNukqtB3m0DsPVQ3TaDdwUq-",
+      "description": "Acorn Buttress nestles at the foot of the East Wing of Twin Buttress. Less than 20m high, it has a clutch of single pitch routes mainly in the lower grades.",
+      "_id": "1d95c62f-abe9-4290-8671-6290cb0f5cf5",
+      "locationid": "c1e1fda8-6a90-4c7d-a0c8-b7501af1a625"
+    }
+  ]
+}
